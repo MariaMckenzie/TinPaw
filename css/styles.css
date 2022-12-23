@@ -120,3 +120,12 @@ h1 {
 .carousel-caption p {
     font-size: 10px;
 }
+
+#press {
+    padding: 5% 2%;
+    background-color: var(--aliceBlue);
+}
+
+#press img {
+    width: 150px;
+}
