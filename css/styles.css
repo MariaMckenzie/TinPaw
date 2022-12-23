@@ -122,10 +122,85 @@ h1 {
 }
 
 #press {
-    padding: 5% 2%;
+    padding: 5% 10%;
     background-color: var(--aliceBlue);
 }
 
 #press img {
     width: 150px;
+}
+
+#pricing {
+    padding: 5% 10%;
+}
+
+#pricing h2 {
+    font-family: 'Ubuntu';
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+#pricing .card h2 {
+    font-family: 'Ubuntu';
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+#pricing .card {
+    text-align: center;
+}
+
+#pricing .card-header {
+    background-color: var(--tropicalViolet);
+}
+
+#pricing .card-header h3 {
+    font-family: 'Ubuntu';
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+#pricing .btn {
+    font-size: small;
+    text-align: center;
+    background-color: var(--jacarta);
+    color: white;
+}
+
+#pricing .btn:hover {
+    background-color: var(--rosePink);
+    color: white;
+}
+
+#pricing .free {
+    text-align: center;
+    border: 1.2px solid var(--jacarta);
+    color: var(--jacarta);
+    background-color: white;
+}
+
+#pricing .free:hover {
+    border: 1.2px solid var(--rosePink);
+    background-color: white;
+    color: var(--rosePink);
+}
+
+#cta {
+    padding: 5% 10%;
+    background-color: var(--aliceBlue);
+}
+
+#cta h3 {
+    font-family: 'Ubuntu';
+    font-weight: bolder;
+    font-size: 2rem;
+}
+
+#footer {
+    padding: 5% 10%;
+}
+
+#footer-logo {
+    height: 40px;
 }
