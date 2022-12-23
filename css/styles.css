@@ -87,3 +87,36 @@ h1 {
     color: var(--rosePink);
     filter: drop-shadow(0 1.4px 1px var(--jacarta));
 }
+
+#testimonials {
+    padding: 5% 10%;
+    background-color: var(--aliceBlue);
+}
+
+#carousel {
+    width: 800px;
+}
+
+.carousel-item {
+    height: 400px;
+    width: 800px;
+}
+
+.carousel-caption {
+    background-color: var(--black) ;
+    padding: 3% 5%;
+    opacity: 90%;
+}
+
+.carousel-inner {
+    text-align: center;
+    justify-content: center;
+}
+
+.carousel-caption h5 {
+    font-size: 13px;
+}
+
+.carousel-caption p {
+    font-size: 10px;
+}
