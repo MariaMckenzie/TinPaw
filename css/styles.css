@@ -77,3 +77,13 @@ h1 {
 #features .box {
     padding: 4%;
 }
+
+.icon {
+    color: var(--jacarta);
+    filter: drop-shadow(0 1.4px 1px var(--black));
+}
+
+.icon:hover {
+    color: var(--rosePink);
+    filter: drop-shadow(0 1.4px 1px var(--jacarta));
+}
