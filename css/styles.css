@@ -1,8 +1,25 @@
 /* fonts */
 @import url("https://fonts.googleapis.com/css?family=Poppins");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@700");
+
+:root {
+    --aliceBlue: #E9F3FB;
+    --tropicalViolet: #C3AED9;
+    --vistaBlue: #84A6D3;
+    --rosePink: #C35E9E;
+    --jacarta: #362360;
+    --black: #212529;
+    --font: 'Poppins';
+}
 
 body {
-    font-family: 'Poppins';
+    font-family: var(--font);
+    font-size: small;
+}
+
+#title {
+    padding: 2% 10%;
+    background-color: var(--aliceBlue);
 }
 
 #site-name {
@@ -11,4 +28,52 @@ body {
 
 #site-logo {
     height: 30px;
+}
+
+.navbar {
+    padding-bottom: 4.5rem;
+}
+
+.nav-link {
+    color: var(--black);
+}
+
+.nav-link:hover {
+    color: var(--rosePink);
+    text-decoration: overline;
+}
+
+h1 {
+    font-family: 'Ubuntu';
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+#download button img {
+    height: 13px;
+}
+
+.phone-img {
+    height: 400px;
+}
+
+#features {
+    padding: 5% 10%;
+}
+
+#features h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--rosePink);
+}
+
+#features p {
+    font-weight: 100;
+    color: var(--rosePink);
+    opacity: 60%;
+}
+
+#features .box {
+    padding: 4%;
 }
