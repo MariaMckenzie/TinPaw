@@ -58,6 +58,10 @@ h1 {
     height: 400px;
 }
 
+#phone-imgs {
+    padding-left: 5%;
+}
+
 #features {
     padding: 5% 10%;
 }
@@ -166,6 +170,7 @@ h1 {
     text-align: center;
     background-color: var(--jacarta);
     color: white;
+    margin-top: 3%;
 }
 
 #pricing .btn:hover {
@@ -203,4 +208,38 @@ h1 {
 
 #footer-logo {
     height: 40px;
+}
+
+ /* Small and medium devices (landscape phones, less than 992px) */
+@media (max-width: 992px) {
+    body {
+        text-align: center;
+        justify-content: center;
+    }
+
+    #title {
+        padding: 5% 10%;
+    }
+
+    #phone-imgs {
+        margin-top: 30px;
+        padding: 0;
+    }
+
+    .col-lg-4 {
+        margin-bottom: 5%;
+    }
+
+    #pricing .btn {
+        padding: 4px 20px;
+        margin-top: 3%;
+    }
+
+ }
+
+/* Large devices (laptops or desktops, less than 1400px)*/
+@media (max-width: 1400px) {
+    .phone-img {
+        height: 300px;
+    }
 }
